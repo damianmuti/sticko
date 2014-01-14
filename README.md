@@ -27,6 +27,8 @@ I really hope you like it and feel free to use this theme for whatever purpose y
 
 `!image[cover-image](url)`.
 
+Thanks to [Thomas Cullen](https://github.com/Thomascullen92) for this great workaround.
+
 ### Setting navigation links
 
 Open the file `nav.hbs` located in `/partials/` folder.
