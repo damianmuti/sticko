@@ -1,0 +1,68 @@
+/**
+ * 
+ * Define mixins, functions, 
+ * animations, placeholders, 
+ * helper classes.
+ * 
+**/
+
+
+@mixin abs-position($z-index) {
+    position:absolute;
+    z-index:$z-index;
+}
+
+@mixin animate($name, $duration, $ease, $repeat) {
+    -webkit-animation:$name $duration $ease $repeat;
+    -webkit-animation-fill-mode:both;
+    -moz-animation:$name $duration $ease $repeat;
+    -moz-animation-fill-mode:both;
+    -o-animation:$name $duration $ease $repeat;
+    -o-animation-fill-mode:both;
+    animation:$name $duration $ease $repeat;
+    animation-fill-mode:both;
+}
+
+@mixin calc($property, $expression) {
+    #{$property}: -moz-calc(#{$expression});
+    #{$property}: -webkit-calc(#{$expression});
+    #{$property}: calc(#{$expression});
+}
+
+@function bp-calculation($breakpoint, $type){
+  @if($type == "up") {@return $breakpoint + 1}
+  @elseif($type == "down") {@return $breakpoint - 1}
+}
+
+@-webkit-keyframes spinner {
+  0%   { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+@-moz-keyframes spinner {
+  0%   { -moz-transform: rotate(0deg); }
+  100% { -moz-transform: rotate(360deg); }
+}
+@-o-keyframes spinner {
+  0%   { -o-transform: rotate(0deg); }
+  100% { -o-transform: rotate(360deg); }
+}
+@keyframes spinner {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.pull-left {float:left}
+.pull-right {float:right}
+
+.clearfix {
+    zoom:1;
+    &:before, &:after {
+        content: "\0020";
+        display: block;
+        height: 0;
+        overflow: hidden; 
+    }
+    &:after {
+        clear: both;
+    }
+}

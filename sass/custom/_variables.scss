@@ -1,0 +1,41 @@
+/**
+ * 
+ * Define variables for backgrounds, 
+ * text colors, etc.
+ * 
+
+  Definitions
+  -----------------------
+
+  Orange:        #DD4B39
+  Light Grey:    #EBEBEB
+  Grey:          #999
+  Dark Grey:     #333
+  Whiteish:      #F0F0F0
+
+**/
+
+/* Backgrounds */
+$background-main:        #F0F0F0;
+$background-orange:      #DD4B39;
+$background-darkgrey:    #333;
+$background-grey: 		 #999;
+$background-lightgrey:   #EBEBEB;
+$background-borders:     #DADADA;
+
+
+/* Font families */
+$font-family-light:      "Nexa Light", "Helvetica Neue", Helvetica, sans-serif, Helvetica, sans-serif;
+$font-family-bold:       "Nexa Bold", "Helvetica Neue", Helvetica, sans-serif, Helvetica, sans-serif;
+
+
+/* Font colors */
+$text-color-main: 		 $background-darkgrey;
+$text-color-link: 		 $background-orange;
+$text-color-grey: 		 $background-grey;
+$text-color-lightgrey:   $background-lightgrey;
+$text-color-bright:      $background-main;
+
+
+/* Buttons */
+$bg-btn-default: 		 $background-orange;

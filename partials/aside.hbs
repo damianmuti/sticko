@@ -1,0 +1,26 @@
+<section class="sidebar-data-holder">
+    <div class="spinner" role="spinner"><div class="spinner-icon"></div></div>
+    <nav class="main-nav">
+        <button class="nav-control"><i class="icon-hamburguer"></i></button>
+        {{> nav}}
+    </nav>
+    <div class="logo"><a href="/" title="Back to home">{{@blog.title}}</a></div>                
+
+    <!-- Author info -->
+    {{#if post}}
+        {{#post}}
+            {{> author}}
+        {{/post}}
+    {{else}}
+        {{#foreach posts}}
+            {{#if @first}}
+                {{> author}}
+            {{/if}}
+        {{/foreach}}
+    {{/if}}
+
+    <!-- Social media badges -->
+    {{> social-media}}
+    
+    <footer id="main-footer"><p>Free <a href="http://ghost.org" title="Try Ghost" rel="external">Ghost</a> theme designed and coded by <a href="https://twitter.com/damianmuti" title="Go to @damianmuti's Twitter" rel="external">@damianmuti</a></p></footer>
+</section>

@@ -1,0 +1,12 @@
+/**
+ * 
+ * Footer structure.
+ * 
+**/
+
+#main-footer {
+	position:absolute; bottom:0; width:100%; height:3.75em; background:$background-darkgrey; line-height:3.75em;
+	
+	p {font-size:.875em}
+	a {font-family:$font-family-bold; color:$text-color-bright}
+}

@@ -1,0 +1,75 @@
+/**
+ * 
+ * Define typhography blocks, 
+ * font styles, font sizes, font weights.
+ * 
+
+  Definitions
+  -----------------------
+
+  Logo font: 			Grand Hotel
+  Text font: 			Nexa Bold/Light
+  Default Text size: 	16px / 1em
+  Line height: 			160
+  H1: 					28px / 1.75em
+  H2: 					24px / 1.5em
+  H3: 					20px / 1.25em
+  H4: 					16px / 1em
+  H5: 					13px / .8125em
+
+**/
+
+
+@import url(http://fonts.googleapis.com/css?family=Grand+Hotel);
+@import "../imports/font-faces";
+@import "../imports/icon-font";
+
+body,
+.pure-g [class *= "pure-u"],
+.pure-g-r [class *= "pure-u"] {font:16px/160% $font-family-light}
+
+html,
+button {-webkit-font-smoothing: antialiased}
+
+h1, h2, h3, h4, h5 {font-family:$font-family-bold; margin:3.125em 0 .625em; text-transform:uppercase; font-weight:normal; line-height:140%}
+	h1, h1 a {padding-bottom:.5em; margin:0 0 .4em 0; border-bottom:1px solid $background-borders}
+		#main h1 a {
+			border:none; text-decoration:none; color:$text-color-main;
+			&:hover {color:$text-color-link}
+		}
+    
+    h1 {font-size:1.75em}
+    h2 {font-size:1.5em}
+    h3 {font-size:1.25em}
+    h4 {font-size:1em}
+    h5 {font-size:.8125em}
+
+
+a {@include single-transition(all, .15s, ease); border-bottom:1px dotted; text-decoration:none}
+#main a {font-family:$font-family-bold}
+p, pre {margin:0 0 1em 0}
+pre,
+.pre-like {padding:1em; background:$background-lightgrey; border:1px dashed $background-borders}
+strong {font-family:$font-family-bold}
+em {font-style:italic; color:$background-grey}
+blockquote {
+	margin:3.125em 0; padding-left:4em; position:relative; @extend em;
+	&:before {font-family:'icon-font'; font-style:normal; color:$text-color-lightgrey; font-size:400%; position:absolute; top:20px; left:-7px; @extend .icon-blockquote}
+}
+.post-content {
+	ul,ol {
+		padding:0; line-height:240%; list-style:none; margin:3.125em 0;
+		
+		li:before {font-family:$font-family-bold; display:block; float:left; text-align:right}
+
+		ul, ol {margin:0 1.3em}
+	}
+		ul {
+			margin-left:3.8em;
+			li:before {content: "•"; font-size:170%; vertical-align:top; margin-right:0.4em}
+		}
+		ol {
+			counter-reset:item; margin-left:2.4em;
+			li:before {content:counter(item) ". "; counter-increment: item; width:30px; margin-right:.7em}
+		}
+}

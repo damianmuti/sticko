@@ -1,0 +1,78 @@
+/**
+ * 
+ * Define breakpoints, 
+ * for responsive behavior.
+ * 
+**/
+
+$bp-tablets: 		1024px;
+$bp-phones: 		600px;
+$bp-small-phones-l: 480px;
+$bp-small-phones-p: 410px;  
+
+
+
+/* ==================================================================================================================== */
+/*      TABLETS BREAKPOINT.                   	                                                                        */
+/* ==================================================================================================================== */
+
+@media screen and (max-width: bp-calculation($bp-tablets, "down")) {
+	body {overflow:visible}
+
+	#main-sidebar {position:relative; @include calc(height, "100% - 3.75em")}
+	#main {padding:0 3.75em 3.75em; margin:0}
+
+	.pure-g-r>.pure-u,.pure-g-r>[class *="pure-u-"]{width:100%}
+
+	.spinner {right:21px}
+
+	.logo {margin-top:10%}
+}
+
+@media screen and (max-width: 800px) and (orientation: landscape) {
+	.logo {margin:4% 0 2%}
+	.social-media-share {margin-top:4%}
+}
+
+@media screen and (max-width: 768px) and (orientation: portrait) {
+	#main-sidebar {max-height:600px}
+}
+
+
+
+/* ==================================================================================================================== */
+/*      PHONES BREAKPOINT.                   	                                                                        */
+/* ==================================================================================================================== */
+
+@media screen and (max-width: bp-calculation($bp-tablets, "down")) {
+	.logo {font-size:3.75em; margin-top:6%}
+	.author-bio {font-size:90%}
+	#main {padding:0 1.75em 1.75em}
+
+	.post {
+	    margin-top:6.25em;
+	    
+	    &:first-of-type {margin-top:1.75em}
+	    &:last-of-type {padding-bottom:1.75em}
+	}
+}
+
+@media screen and (max-width: bp-calculation($bp-tablets, "down")) and (orientation: landscape) {
+	#main-sidebar {min-height:500px;}
+}
+
+@media screen and (max-width: $bp-phones) and (orientation: portrait) {
+	.logo {margin-top:20%}
+	.social-media-share {margin-top:4%}
+}
+
+
+
+/* ==================================================================================================================== */
+/*      SMALL PHONES BREAKPOINT.             	                                                                        */
+/* ==================================================================================================================== */
+
+@media screen and (max-width: $bp-small-phones-l) and (orientation: portrait) {
+	#main-sidebar {min-height:520px}
+	#main-footer p {font-size:.7em}	
+}

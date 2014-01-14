@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		{{! Document Settings }}
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        {{! Page Meta }}
+		<title>{{meta_title}}</title>
+		<meta name="description" content="{{meta_description}}">
+        
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+        {{! Styles'n'Scripts }}
+		<link rel="stylesheet" href="/assets/css/style.css">
+        
+        {{! Touch icons and favicon }}
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/images/apple-touch-icon-144x144-precomposed.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/apple-touch-icon-114x114-precomposed.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/images/apple-touch-icon-72x72-precomposed.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/assets/images/apple-touch-icon-57x57-precomposed.png" />
+        <link rel="apple-touch-icon-precomposed" href="/assets/images/apple-touch-icon-precomposed.png" />
+        <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png" />
+        <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico" />
+        <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico" />
+        
+        {{! Ghost outputs important style and meta data with this tag }}
+        {{ghost_head}}
+
+	</head>
+	<body class="{{body_class}}">
+        <div id="main-content" role="main" class="pure-g-r">
+            <aside id="main-sidebar" class="pure-u-1-2">
+                {{> aside}}
+            </aside>
+            <section id="main" class="pure-u-1-2">
+                {{{body}}}
+            </section>
+        </div>
+
+        {{! Ghost outputs important scripts and data with this tag }}
+        {{ghost_foot}}
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="/assets/js/plugins/jquery.fitvids.js"></script>
+        <script src="/assets/js/script.js"></script>
+        {{#if post}}
+        <script async type="text/javascript" src="//apis.google.com/js/plusone.js?callback=gpcb"></script>
+        {{/if}}
+	</body>
+</html>

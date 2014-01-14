@@ -1,0 +1,32 @@
+/**
+ * 
+ * Aesthetic assets/elements, 
+ * across the whole theme.
+ * 
+**/
+
+[class*="icon-"],
+[class^="icon-"] {border:none}
+
+.button {font:normal .6875em $font-family-bold; padding:1.5em 0 1.2em; border:none; background:none; text-align:center; line-height:1.8125em; display:block; color:$text-color-bright !important; text-transform:uppercase;}
+
+	.button-default {
+    	background:$background-orange;
+    	&:hover {background:$background-darkgrey}
+    }
+
+    .button-keep-reading {margin:3em auto 0; max-width:12em}
+
+.spinner {display:block; position:fixed; z-index:100; top:22px; @include calc(right, "50% + 22px")}
+
+.spinner-icon {
+	width:18px; height:18px; border:solid 2px transparent; border-top-color:$background-main; border-left-color:$background-main; border-radius: 50%;
+	@include animate(spinner, 400ms, linear, infinite)
+}
+
+hr {width:100%; border:none; border-bottom:1px solid $background-borders}
+
+div[id^='___comments_'], div[id^='___comments_'] iframe {
+  width: 100% !important;
+}
+
