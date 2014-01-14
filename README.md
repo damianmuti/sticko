@@ -20,8 +20,6 @@ I really hope you like it and feel free to use this theme for whatever purpose y
 
 **Optional:** Set a cover image for your fresh installed blog. If you dont, dont worry; **sticko** comes with a preset cover image.
 
-<br>
-
 ### Set a cover image for every post
 
 [Ghost](http://ghost.org) does not let you specify a cover/featured image *yet*, but **sticko** allows that functionality just by specifying the proper alt property of the desired image:
@@ -40,6 +38,10 @@ Open the file `social-media.hbs` located in `/partials/` folder.
 ### Editting footer
 
 Open the file `footer.hbs` located in `/partials/` folder.
+
+### theme includes
+
+Sticko includes .scss source files in case you want to do some modifications :).
 
 <hr>
 
