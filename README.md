@@ -47,7 +47,7 @@ Sticko includes .scss source files in case you want to do some modifications :).
 
 ### Get in touch
 
-If by any reason you need/want to get in touch with me, feel free to [drop me an email](hi@damianmuti.com) or find me on [Facebook](http://www.facebook.com/damianmuti) and [Twitter](http://www.twitter.com/damianmuti).
+If by any reason you need/want to get in touch with me, feel free to [drop me an email](mailto:hi@damianmuti.com) or find me on [Facebook](http://www.facebook.com/damianmuti) and [Twitter](http://www.twitter.com/damianmuti).
 
 ### Licence
 [CreativeCommons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/)
