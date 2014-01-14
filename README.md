@@ -29,20 +29,13 @@ I really hope you like it and feel free to use this theme for whatever purpose y
 
 `!image[cover-image](url)`.
 
-
-<br>
-
 ### Setting navigation links
 
 Open the file `nav.hbs` located in `/partials/` folder.
 
-<br>
-
 ### Setting social media links
 
 Open the file `social-media.hbs` located in `/partials/` folder.
-
-<br>
 
 ### Editting footer
 
@@ -53,8 +46,6 @@ Open the file `footer.hbs` located in `/partials/` folder.
 ### Get in touch
 
 If by any reason you need/want to get in touch with me, feel free to [drop me an email](hi@damianmuti.com) or find me on [Facebook](http://www.facebook.com/damianmuti) and [Twitter](http://www.twitter.com/damianmuti).
-
-<br>
 
 ### Licence
 [CreativeCommons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/)
