@@ -54,7 +54,7 @@ Open the file `footer.hbs` located in `/partials/` folder.
 
 If by any reason you need/want to get in touch with me, feel free to [drop me an email](hi@damianmuti.com) or find me on [Facebook](http://www.facebook.com/damianmuti) and [Twitter](http://www.twitter.com/damianmuti).
 
-<br><br>
+<br>
 
 ### Licence
 [CreativeCommons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/)
