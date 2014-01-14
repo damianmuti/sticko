@@ -39,7 +39,7 @@ Open the file `social-media.hbs` located in `/partials/` folder.
 
 Open the file `footer.hbs` located in `/partials/` folder.
 
-### theme includes
+### Theme includes
 
 Sticko includes .scss source files in case you want to do some modifications :).
 
