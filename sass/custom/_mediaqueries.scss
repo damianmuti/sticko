@@ -22,11 +22,19 @@ $bp-small-phones-p: 410px;
 	#main-sidebar {position:relative; @include calc(height, "100% - 3.75em")}
 	#main {padding:0 3.75em 3.75em; margin:0}
 
-	.pure-g-r>.pure-u,.pure-g-r>[class *="pure-u-"]{width:100%}
+	.pure-g-r>.pure-u,
+	.pure-g-r>[class *="pure-u-"],
+	#main-sidebar,
+	#main {width:100% !important; float:left !important;}
 
 	.spinner {right:21px}
 
 	.logo {margin-top:10%}
+
+	.post-content {
+		ul {margin-left:1.8em}
+		ol {margin-left:.9em}
+	}
 }
 
 @media screen and (max-width: 800px) and (orientation: landscape) {
@@ -73,6 +81,6 @@ $bp-small-phones-p: 410px;
 /* ==================================================================================================================== */
 
 @media screen and (max-width: $bp-small-phones-l) and (orientation: portrait) {
-	#main-sidebar {min-height:520px}
+	#main-sidebar {min-height:550px}
 	#main-footer p {font-size:.7em}	
 }
