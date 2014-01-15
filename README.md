@@ -36,7 +36,7 @@ I really hope you like it and feel free to use this theme for whatever purpose y
 [Ghost](http://ghost.org) does not let you specify a cover/featured image *yet*, but **sticko** allows that functionality just by specifying the proper alt property of the desired image:
 
 
-`!image[cover-image](url)`.
+`![cover-image](url)`.
 
 Thanks to [Thomas Cullen](https://github.com/Thomascullen92) for this great workaround.
 
