@@ -1,4 +1,4 @@
-sticko - A free Ghost theme :)
+Sticko - A free Ghost theme :)
 =======
 
 ## About this theme
@@ -10,6 +10,17 @@ I really hope you like it and feel free to use this theme for whatever purpose y
 
 <hr>
 
+### Features
+* Full responsive.
+* Lightweight yet beautiful.
+* Google+ Comments on Posts.
+* Off-canvas navigation.
+* Author info outside loop across the whole theme.
+* Responsive videos (thanks to FitVid.js).
+* Possibility to add cover images on posts (thanks to Thom Cullen).
+* Loading indicator.
+* Icon fonts - support for Retina Display/High pixel density screens.
+* SCSS source files for further modifications.
 
 ### Installation
 
