@@ -1,6 +1,8 @@
 Sticko - A free Ghost theme :)
 =======
 
+<div style="text-align:center; max-width:100%; height:auto">![screen](http://damianmuti.com/downloads/screen.jpg)</div>
+
 ## About this theme
 
 I've been working as a UI/UX Dev and Art Director for the last 12 years. I've also been using the web as a huge source of information for my personal and professional career.
