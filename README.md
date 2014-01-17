@@ -48,9 +48,13 @@ Open the file `nav.hbs` located in `/partials/` folder.
 
 Open the file `social-media.hbs` located in `/partials/` folder.
 
-### Editting footer
+### Editing footer
 
 Open the file `footer.hbs` located in `/partials/` folder.
+
+### Editing CSS/SCSS files.
+
+**Sticko** is developed on top of [Sass](http://sass-lang.com/install) and [Compass](http://compass-style.org/install), which means that you are going to need both running on your own machine; follow both guides to set up the proper environment.
 
 <hr>
 
