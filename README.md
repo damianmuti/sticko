@@ -1,6 +1,9 @@
 Sticko - A free Ghost theme :)
 =======
 
+
+![screen](http://damianmuti.com/downloads/screen.jpg)
+
 ## About this theme
 
 I've been working as a UI/UX Dev and Art Director for the last 12 years. I've also been using the web as a huge source of information for my personal and professional career.
