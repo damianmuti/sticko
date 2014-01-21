@@ -13,6 +13,24 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-googleplus:before {
+	content: "\e60e";
+}
+.icon-dribbble:before {
+	content: "\e60f";
+}
+.icon-stumbleupon:before {
+	content: "\e610";
+}
+.icon-lastfm:before {
+	content: "\e611";
+}
+.icon-rdio:before {
+	content: "\e612";
+}
+.icon-github:before {
+	content: "\e60d";
+}
 .icon-code:before {
 	content: "\e600";
 }
@@ -43,7 +61,7 @@
 .icon-linkedin:before {
 	content: "\e609";
 }
-.icon-lastfm:before {
+.icon-lastfm2:before {
 	content: "\e60a";
 }
 .icon-flickr:before {
@@ -51,7 +69,4 @@
 }
 .icon-facebook:before {
 	content: "\e60c";
-}
-.icon-github:before {
-	content: "\e60d";
 }
