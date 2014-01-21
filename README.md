@@ -1,6 +1,9 @@
 Sticko - A free Ghost theme :)
 =======
 
+
+![screen](http://damianmuti.com/downloads/screen.jpg)
+
 ## About this theme
 
 I've been working as a UI/UX Dev and Art Director for the last 12 years. I've also been using the web as a huge source of information for my personal and professional career.
@@ -48,9 +51,13 @@ Open the file `nav.hbs` located in `/partials/` folder.
 
 Open the file `social-media.hbs` located in `/partials/` folder.
 
-### Editting footer
+### Editing footer
 
 Open the file `footer.hbs` located in `/partials/` folder.
+
+### Editing CSS/SCSS files.
+
+**Sticko** is developed on top of [Sass](http://sass-lang.com/install) and [Compass](http://compass-style.org/install), which means that you are going to need both running on your own machine; follow both guides to set up the proper environment.
 
 <hr>
 
