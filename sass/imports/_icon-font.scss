@@ -6,7 +6,6 @@
 	font-variant: normal;
 	text-transform: none;
 	line-height: 1;
-	display: inline-block;
 
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
@@ -61,8 +60,11 @@
 .icon-linkedin:before {
 	content: "\e609";
 }
-.icon-lastfm2:before {
+.icon-lastfm:before {
 	content: "\e60a";
+}
+.icon-youtube:before {
+	content: "\e613";
 }
 .icon-flickr:before {
 	content: "\e60b";
