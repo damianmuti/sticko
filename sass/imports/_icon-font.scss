@@ -12,41 +12,35 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-googleplus:before {
-	content: "\e60e";
-}
-.icon-dribbble:before {
-	content: "\e60f";
-}
-.icon-stumbleupon:before {
-	content: "\e610";
-}
-.icon-lastfm:before {
-	content: "\e611";
-}
-.icon-rdio:before {
-	content: "\e612";
-}
-.icon-github:before {
-	content: "\e60d";
-}
-.icon-code:before {
-	content: "\e600";
-}
 .icon-hamburguer:before {
 	content: "\e601";
 }
 .icon-datetime:before {
 	content: "\e602";
 }
-.icon-shortlink:before {
-	content: "\e603";
+.icon-flickr:before {
+	content: "\e60b";
+}
+.icon-facebook:before {
+	content: "\e60c";
 }
 .icon-tags:before {
 	content: "\e604";
 }
+.icon-shortlink:before {
+	content: "\e603";
+}
 .icon-blockquote:before {
 	content: "\e605";
+}
+.icon-feed:before {
+	content: "\e614";
+}
+.icon-mail:before {
+	content: "\e615";
+}
+.icon-youtube:before {
+	content: "\e613";
 }
 .icon-vimeo:before {
 	content: "\e606";
@@ -63,12 +57,24 @@
 .icon-lastfm:before {
 	content: "\e60a";
 }
-.icon-youtube:before {
-	content: "\e613";
+.icon-code:before {
+	content: "\e600";
 }
-.icon-flickr:before {
-	content: "\e60b";
+.icon-github:before {
+	content: "\e60d";
 }
-.icon-facebook:before {
-	content: "\e60c";
+.icon-googleplus:before {
+	content: "\e60e";
+}
+.icon-dribbble:before {
+	content: "\e60f";
+}
+.icon-stumbleupon:before {
+	content: "\e610";
+}
+.icon-lastfm:before {
+	content: "\e611";
+}
+.icon-rdio:before {
+	content: "\e612";
 }
