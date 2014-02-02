@@ -1,0 +1,11 @@
+<script src="https://apis.google.com/js/plusone.js"></script>
+<div id="google_comments" class="g-comments"></div>
+<script type="text/javascript">
+	var cwidth=document.getElementById('google_comments').offsetWidth;
+	gapi.comments.render('google_comments', {
+		href: '{{url absolute="true"}}',
+		width: cwidth ,
+		first_party_property: 'BLOGGER',
+		view_type: 'FILTERED_POSTMOD'
+	});
+</script>
