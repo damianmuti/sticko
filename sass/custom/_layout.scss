@@ -1,7 +1,7 @@
 /**
- * 
+ *
  * Main structure.
- * 
+ *
 **/
 
 * {@include box-sizing(border-box);}
@@ -16,7 +16,7 @@ body {
 }
 
 .wrapper {
-    width:100%; margin:0 auto; padding:0 1em; position:relative; 
+    width:100%; margin:0 auto; padding:0 1em; position:relative;
     @extend .clearfix;
 }
 .main-holder {height:100%}
@@ -24,7 +24,7 @@ body {
 
 #main {
     padding:0 3.75em; margin-left:50%;
-    
+
     a {color:$text-color-link}
 }
 
@@ -32,7 +32,7 @@ body {
 
 .post {
     margin-top:6.25em;
-    
+
     &:first-of-type {margin-top:3.75em}
     &:last-of-type {padding-bottom:3.75em}
 
@@ -47,14 +47,15 @@ body {
             @extend .pull-left;
 
             [class*="icon-"] {font-size:1.5em; color:$text-color-main; vertical-align:middle; margin:-2px 3px 0 0}
-            
+
             &:last-of-type {padding:0; @extend .pull-right}
             &:only-of-type {padding:0; float:left !important}
-        } 
+        }
 
 .pagination {
+    text-align: center;
     padding-top:.5em;
-    
+
     .older-posts {float:right}
     .newer-posts {float:left}
 }
